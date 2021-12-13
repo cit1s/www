@@ -1,3 +1,3 @@
-# Simple Sites
+# cit1s - citizens swap first
 
- * This site is for simple sites.
+ * This site is our site.

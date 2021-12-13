@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function ProductHead({page}) {
     return <Head>
-        <title>{page.Company.name} - {page.Product.name}</title>
+        <title>{page.Company.domain_name} - {page.Product.name}</title>
 
         <link rel="icon" href="/favicon.ico"/>
 

@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <Container>
             <Head>
-                <title>{SITE.Company.fqdn}</title>
+                <title>{SITE.Company.domain_fqdn}</title>
                 <link rel="icon" href="/favicon.ico"/>
                 <meta name="color-scheme" content="dark"/>
                 <meta
@@ -25,7 +25,7 @@ export default function Home() {
 
             <Main>
                 <h1 className={styles.title}>
-                    <a className="gradient" href={`https://www.${SITE.Company.fqdn}`}>{SITE.Company.name}</a> {SITE.Company.tld}
+                    <a className="gradient" href={`https://www.${SITE.Company.domain_fqdn}`}>{SITE.Company.domain_name}</a> {SITE.Company.domain_tld}
                 </h1>
 
                 <p className={styles.description}>

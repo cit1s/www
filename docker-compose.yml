@@ -1,12 +1,11 @@
 version: '3.1'
 
 services:
-  www-stub:
-    container_name: www-stub
-    image: www-stub
+  www-cit1s:
+    image: www-cit1s
     build: .
     ports:
-        - "3000:3000"
+        - "4005:3000"
     networks:
       - homedock
 

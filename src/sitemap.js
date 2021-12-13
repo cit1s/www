@@ -1,13 +1,13 @@
 export default {
 
     Company: {
-        fqdn: 'b-street.build',
-        tld: '.build',
-        name: 'b-street.build',
-        title: 'b-street.build',
-        slogan: 'We build helpful',
+        domain_fqdn: 'cit1s.finance',
+        domain_tld: '.finance',
+        domain_name: 'cit1s',
+        title: 'cit1s.finance',
+        slogan: 'Citizens swap first',
         Meta: {
-            description: 'b-street.build helps build products and services for crypto and blockchain.',
+            description: 'Cit1s - A place for citizens to swap cryptocurrencies.',
         }
     },
 
