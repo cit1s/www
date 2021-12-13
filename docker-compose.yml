@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  www-stub:
+    container_name: www-stub
+    image: www-stub
+    build: .
+    ports:
+        - "3000:3000"
+    networks:
+      - homedock
+
+networks:
+  homedock:
+    external: true
